@@ -1,0 +1,6 @@
+github "ReactiveX/RxSwift"
+github "RxSwiftCommunity/RxSwiftExt"
+github "RxSwiftCommunity/RxDataSources"
+github "RxSwiftCommunity/RxKingfisher"
+github "Moya/Moya"
+github "atsushi130/SwiftExtensions"
