@@ -32,6 +32,7 @@
 		0DB63E6B2278792E00D89682 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E632278792E00D89682 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0DB63E7422787A2F00D89682 /* LunchHubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E7322787A2F00D89682 /* LunchHubApi.swift */; };
 		0DB63E7622787A8700D89682 /* LunchHubApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E7522787A8700D89682 /* LunchHubApiEndpoint.swift */; };
+		0DB63E7822787AE600D89682 /* LunchHubApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E7722787AE600D89682 /* LunchHubApiService.swift */; };
 		3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206322781E4000D64F5A /* RxAtomic.framework */; };
 		3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206422781E4000D64F5A /* ReactiveSwift.framework */; };
 		3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206522781E4000D64F5A /* RxSwiftExt.framework */; };
@@ -144,6 +145,7 @@
 		0DB63E662278792E00D89682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DB63E7322787A2F00D89682 /* LunchHubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchHubApi.swift; sourceTree = "<group>"; };
 		0DB63E7522787A8700D89682 /* LunchHubApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchHubApiEndpoint.swift; sourceTree = "<group>"; };
+		0DB63E7722787AE600D89682 /* LunchHubApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchHubApiService.swift; sourceTree = "<group>"; };
 		3354206222781E4000D64F5A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		3354206322781E4000D64F5A /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 		3354206422781E4000D64F5A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 			children = (
 				0DB63E7322787A2F00D89682 /* LunchHubApi.swift */,
 				0DB63E7522787A8700D89682 /* LunchHubApiEndpoint.swift */,
+				0DB63E7722787AE600D89682 /* LunchHubApiService.swift */,
 			);
 			path = LunchHubApi;
 			sourceTree = "<group>";
@@ -789,6 +792,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB63E7822787AE600D89682 /* LunchHubApiService.swift in Sources */,
 				0DB63E7622787A8700D89682 /* LunchHubApiEndpoint.swift in Sources */,
 				0DB63E7422787A2F00D89682 /* LunchHubApi.swift in Sources */,
 			);
