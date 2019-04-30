@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3354207222781E4100D64F5A /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206222781E4000D64F5A /* RxBlocking.framework */; };
 		3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206322781E4000D64F5A /* RxAtomic.framework */; };
 		3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206422781E4000D64F5A /* ReactiveSwift.framework */; };
 		3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206522781E4000D64F5A /* RxSwiftExt.framework */; };
 		3354207622781E4100D64F5A /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206622781E4000D64F5A /* Moya.framework */; };
-		3354207722781E4100D64F5A /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206722781E4000D64F5A /* RxTest.framework */; };
 		3354207822781E4100D64F5A /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206822781E4000D64F5A /* RxMoya.framework */; };
 		3354207922781E4100D64F5A /* RxKingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206922781E4000D64F5A /* RxKingfisher.framework */; };
 		3354207A22781E4100D64F5A /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206A22781E4000D64F5A /* RxDataSources.framework */; };
@@ -89,12 +87,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				335420842278204100D64F5A /* PAYJP.framework in Frameworks */,
-				3354207222781E4100D64F5A /* RxBlocking.framework in Frameworks */,
 				3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */,
 				3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */,
 				3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */,
 				3354207622781E4100D64F5A /* Moya.framework in Frameworks */,
-				3354207722781E4100D64F5A /* RxTest.framework in Frameworks */,
 				3354207822781E4100D64F5A /* RxMoya.framework in Frameworks */,
 				3354207922781E4100D64F5A /* RxKingfisher.framework in Frameworks */,
 				3354207A22781E4100D64F5A /* RxDataSources.framework in Frameworks */,
@@ -349,10 +345,8 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxKingfisher.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxAtomic.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveMoya.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/PAYJP.framework",
 			);
 			outputFileListPaths = (
