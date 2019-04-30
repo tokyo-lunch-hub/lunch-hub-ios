@@ -12,5 +12,9 @@ public extension LunchHubApi {
     struct Error: Swift.Error, Decodable {
         public let message: String
         public let code: Int?
+        
+        static var internalError: Error {
+            return Error(message: "エラーが発生しました", code: 0)
+        }
     }
 }
