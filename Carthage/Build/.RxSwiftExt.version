@@ -1,0 +1,10 @@
+{
+  "commitish" : "3.4.0",
+  "iOS" : [
+    {
+      "name" : "RxSwiftExt",
+      "hash" : "bcdbff87d9f3dfe95f582133211c18a8c6d02605877a81ac9a091b263ee5ea5d",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

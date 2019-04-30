@@ -1,0 +1,4 @@
+framework module RxKingfisher {
+  header "RxKingfisher-Swift.h"
+  requires objc
+}
