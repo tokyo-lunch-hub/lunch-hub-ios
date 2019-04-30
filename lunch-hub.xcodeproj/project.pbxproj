@@ -38,6 +38,8 @@
 		0DB63E7E2278820F00D89682 /* ResponseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E7D2278820F00D89682 /* ResponseInterceptor.swift */; };
 		0DB63E802278840F00D89682 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E7F2278840F00D89682 /* SwiftExtensions.framework */; };
 		0DB63E812278840F00D89682 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E7F2278840F00D89682 /* SwiftExtensions.framework */; };
+		0DB63E832278862B00D89682 /* MoyaProvider+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E822278862B00D89682 /* MoyaProvider+.swift */; };
+		0DB63E85227886C100D89682 /* Observable+Interceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E84227886C100D89682 /* Observable+Interceptor.swift */; };
 		3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206322781E4000D64F5A /* RxAtomic.framework */; };
 		3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206422781E4000D64F5A /* ReactiveSwift.framework */; };
 		3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206522781E4000D64F5A /* RxSwiftExt.framework */; };
@@ -155,6 +157,8 @@
 		0DB63E7B227881A200D89682 /* LunchHubApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchHubApiError.swift; sourceTree = "<group>"; };
 		0DB63E7D2278820F00D89682 /* ResponseInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseInterceptor.swift; sourceTree = "<group>"; };
 		0DB63E7F2278840F00D89682 /* SwiftExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftExtensions.framework; path = Carthage/Build/iOS/SwiftExtensions.framework; sourceTree = "<group>"; };
+		0DB63E822278862B00D89682 /* MoyaProvider+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+.swift"; sourceTree = "<group>"; };
+		0DB63E84227886C100D89682 /* Observable+Interceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Interceptor.swift"; sourceTree = "<group>"; };
 		3354206222781E4000D64F5A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		3354206322781E4000D64F5A /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 		3354206422781E4000D64F5A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
@@ -340,6 +344,8 @@
 				0DB63E7922787B3F00D89682 /* LunchHubApiHost.swift */,
 				0DB63E7B227881A200D89682 /* LunchHubApiError.swift */,
 				0DB63E7D2278820F00D89682 /* ResponseInterceptor.swift */,
+				0DB63E822278862B00D89682 /* MoyaProvider+.swift */,
+				0DB63E84227886C100D89682 /* Observable+Interceptor.swift */,
 			);
 			path = LunchHubApi;
 			sourceTree = "<group>";
@@ -814,6 +820,8 @@
 				0DB63E7622787A8700D89682 /* LunchHubApiEndpoint.swift in Sources */,
 				0DB63E7422787A2F00D89682 /* LunchHubApi.swift in Sources */,
 				0DB63E7A22787B3F00D89682 /* LunchHubApiHost.swift in Sources */,
+				0DB63E85227886C100D89682 /* Observable+Interceptor.swift in Sources */,
+				0DB63E832278862B00D89682 /* MoyaProvider+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
