@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.0.2",
+  "iOS" : [
+    {
+      "name" : "SwiftExtensions",
+      "hash" : "b5dffb4773a6daff6a69fa1f218e6124a2066e8c0efd8e7f3e51daf1a54fe936"
+    }
+  ]
+}
