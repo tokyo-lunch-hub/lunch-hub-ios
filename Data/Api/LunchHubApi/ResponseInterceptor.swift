@@ -11,12 +11,25 @@ import RxSwift
 import Moya
 import SwiftExtensions
 
-protocol ResponseInterceptor {
+extension LunchHubApi {
+    enum ResponseInterceptor: CaseIterable {
+        case success
+        case failure
+        var interceptor: ResponseInterceptorable {
+            switch self {
+            case .success: return SuccessResponseInterceptor()
+            case .failure: return FailureResponseInterceptor()
+            }
+        }
+    }
+}
+
+protocol ResponseInterceptorable {
     func intercept<T>(response: Response) -> Observable<T>? where T: Decodable
     func intercept(response: Response) -> Observable<Void>?
 }
 
-struct SuccessResponseInterceptor: ResponseInterceptor {
+struct SuccessResponseInterceptor: ResponseInterceptorable {
     
     func intercept<T>(response: Response) -> Observable<T>? where T: Decodable {
         switch response.statusCode {
@@ -39,7 +52,7 @@ struct SuccessResponseInterceptor: ResponseInterceptor {
     }
 }
 
-struct FailureResponseInterceptor: ResponseInterceptor {
+struct FailureResponseInterceptor: ResponseInterceptorable {
     
     func intercept<T>(response: Response) -> Observable<T>? where T: Decodable {
         return self.errorHandle(response: response)
