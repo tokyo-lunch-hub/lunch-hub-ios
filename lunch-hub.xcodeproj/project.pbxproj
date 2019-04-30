@@ -36,6 +36,8 @@
 		0DB63E7A22787B3F00D89682 /* LunchHubApiHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E7922787B3F00D89682 /* LunchHubApiHost.swift */; };
 		0DB63E7C227881A200D89682 /* LunchHubApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E7B227881A200D89682 /* LunchHubApiError.swift */; };
 		0DB63E7E2278820F00D89682 /* ResponseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E7D2278820F00D89682 /* ResponseInterceptor.swift */; };
+		0DB63E802278840F00D89682 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E7F2278840F00D89682 /* SwiftExtensions.framework */; };
+		0DB63E812278840F00D89682 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E7F2278840F00D89682 /* SwiftExtensions.framework */; };
 		3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206322781E4000D64F5A /* RxAtomic.framework */; };
 		3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206422781E4000D64F5A /* ReactiveSwift.framework */; };
 		3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206522781E4000D64F5A /* RxSwiftExt.framework */; };
@@ -152,6 +154,7 @@
 		0DB63E7922787B3F00D89682 /* LunchHubApiHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchHubApiHost.swift; sourceTree = "<group>"; };
 		0DB63E7B227881A200D89682 /* LunchHubApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchHubApiError.swift; sourceTree = "<group>"; };
 		0DB63E7D2278820F00D89682 /* ResponseInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseInterceptor.swift; sourceTree = "<group>"; };
+		0DB63E7F2278840F00D89682 /* SwiftExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftExtensions.framework; path = Carthage/Build/iOS/SwiftExtensions.framework; sourceTree = "<group>"; };
 		3354206222781E4000D64F5A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		3354206322781E4000D64F5A /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 		3354206422781E4000D64F5A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
@@ -205,6 +208,7 @@
 			files = (
 				0DB63E412278768400D89682 /* Model.framework in Frameworks */,
 				0DB63E42227876D100D89682 /* Alamofire.framework in Frameworks */,
+				0DB63E812278840F00D89682 /* SwiftExtensions.framework in Frameworks */,
 				0DB63E43227876D100D89682 /* Moya.framework in Frameworks */,
 				0DB63E44227876D100D89682 /* Result.framework in Frameworks */,
 				0DB63E45227876D100D89682 /* RxCocoa.framework in Frameworks */,
@@ -241,6 +245,7 @@
 				0DB63E292278757700D89682 /* Model.framework in Frameworks */,
 				0DB63E3C2278767200D89682 /* Data.framework in Frameworks */,
 				3354207822781E4100D64F5A /* RxMoya.framework in Frameworks */,
+				0DB63E802278840F00D89682 /* SwiftExtensions.framework in Frameworks */,
 				3354207922781E4100D64F5A /* RxKingfisher.framework in Frameworks */,
 				3354207A22781E4100D64F5A /* RxDataSources.framework in Frameworks */,
 				3354207B22781E4100D64F5A /* ReactiveMoya.framework in Frameworks */,
@@ -342,6 +347,7 @@
 		3354206122781E4000D64F5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DB63E7F2278840F00D89682 /* SwiftExtensions.framework */,
 				335420832278204000D64F5A /* PAYJP.framework */,
 				3354207022781E4000D64F5A /* Alamofire.framework */,
 				3354207122781E4100D64F5A /* Differentiator.framework */,
@@ -771,6 +777,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveMoya.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/PAYJP.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftExtensions.framework",
 			);
 			outputFileListPaths = (
 			);
