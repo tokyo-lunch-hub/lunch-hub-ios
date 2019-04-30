@@ -23,6 +23,7 @@
 		3354207F22781E4100D64F5A /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206F22781E4000D64F5A /* Result.framework */; };
 		3354208022781E4100D64F5A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354207022781E4000D64F5A /* Alamofire.framework */; };
 		3354208122781E4100D64F5A /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354207122781E4100D64F5A /* Differentiator.framework */; };
+		335420842278204100D64F5A /* PAYJP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335420832278204000D64F5A /* PAYJP.framework */; };
 		33A4CF33227077300046A07D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A4CF32227077300046A07D /* AppDelegate.swift */; };
 		33A4CF35227077300046A07D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A4CF34227077300046A07D /* ViewController.swift */; };
 		33A4CF38227077300046A07D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A4CF36227077300046A07D /* Main.storyboard */; };
@@ -66,6 +67,7 @@
 		3354206F22781E4000D64F5A /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		3354207022781E4000D64F5A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		3354207122781E4100D64F5A /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
+		335420832278204000D64F5A /* PAYJP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PAYJP.framework; path = Carthage/Build/iOS/PAYJP.framework; sourceTree = "<group>"; };
 		33A4CF2F227077300046A07D /* lunch-hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lunch-hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A4CF32227077300046A07D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33A4CF34227077300046A07D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335420842278204100D64F5A /* PAYJP.framework in Frameworks */,
 				3354207222781E4100D64F5A /* RxBlocking.framework in Frameworks */,
 				3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */,
 				3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */,
@@ -125,6 +128,7 @@
 		3354206122781E4000D64F5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				335420832278204000D64F5A /* PAYJP.framework */,
 				3354207022781E4000D64F5A /* Alamofire.framework */,
 				3354207122781E4100D64F5A /* Differentiator.framework */,
 				3354206D22781E4000D64F5A /* Kingfisher.framework */,
@@ -349,6 +353,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveMoya.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PAYJP.framework",
 			);
 			outputFileListPaths = (
 			);

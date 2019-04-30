@@ -1,0 +1,10 @@
+{
+  "commitish" : "0.4.0",
+  "iOS" : [
+    {
+      "name" : "PAYJP",
+      "hash" : "461b0d66b1dca48c68e9c6ca57b4c07b6b3c4ebc2946f29ca11b41a897ef1af3",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}
