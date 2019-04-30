@@ -3,7 +3,7 @@
 //  lunch-hub
 //
 //  Created by shinpei mitani on 2019/04/24.
-//  Copyright © 2019 jp.co.tokyo-lunch-hub. All rights reserved.
+//  Copyright © 2019 Tokyo Lunch Hub. All rights reserved.
 //
 
 import UIKit

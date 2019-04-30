@@ -262,7 +262,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "jp.co.tokyo-lunch-hub";
+				ORGANIZATIONNAME = "Tokyo Lunch Hub";
 				TargetAttributes = {
 					33A4CF2E227077300046A07D = {
 						CreatedOnToolsVersion = 10.2.1;
