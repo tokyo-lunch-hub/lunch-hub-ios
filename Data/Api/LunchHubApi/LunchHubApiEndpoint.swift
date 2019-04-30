@@ -13,7 +13,7 @@ protocol LunchHubApiEndpoint: TargetType {}
 extension LunchHubApiEndpoint {
     
     var baseURL: URL {
-        return URL(string: "")!
+        return lunchHubApiHost.url
     }
     
     var sampleData: Data {
