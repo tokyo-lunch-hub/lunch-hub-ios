@@ -23,6 +23,10 @@
 		0DB63E45227876D100D89682 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206E22781E4000D64F5A /* RxCocoa.framework */; };
 		0DB63E46227876D100D89682 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206822781E4000D64F5A /* RxMoya.framework */; };
 		0DB63E47227876D100D89682 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206C22781E4000D64F5A /* RxSwift.framework */; };
+		0DB63E532278782600D89682 /* ViewComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB63E512278782600D89682 /* ViewComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DB63E562278782600D89682 /* ViewComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E4F2278782600D89682 /* ViewComponent.framework */; };
+		0DB63E572278782600D89682 /* ViewComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E4F2278782600D89682 /* ViewComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0DB63E5B2278784100D89682 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E222278757700D89682 /* Model.framework */; };
 		3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206322781E4000D64F5A /* RxAtomic.framework */; };
 		3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206422781E4000D64F5A /* ReactiveSwift.framework */; };
 		3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206522781E4000D64F5A /* RxSwiftExt.framework */; };
@@ -69,6 +73,13 @@
 			remoteGlobalIDString = 0DB63E342278767200D89682;
 			remoteInfo = Data;
 		};
+		0DB63E542278782600D89682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A4CF27227077300046A07D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB63E4E2278782600D89682;
+			remoteInfo = ViewComponent;
+		};
 		33A4CF44227077310046A07D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 33A4CF27227077300046A07D /* Project object */;
@@ -93,6 +104,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				0DB63E3D2278767200D89682 /* Data.framework in Embed Frameworks */,
+				0DB63E572278782600D89682 /* ViewComponent.framework in Embed Frameworks */,
 				0DB63E2A2278757700D89682 /* Model.framework in Embed Frameworks */,
 				0DB63E162278732000D89682 /* Extension.framework in Embed Frameworks */,
 			);
@@ -111,6 +123,9 @@
 		0DB63E352278767200D89682 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB63E372278767200D89682 /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		0DB63E382278767200D89682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB63E4F2278782600D89682 /* ViewComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViewComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB63E512278782600D89682 /* ViewComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewComponent.h; sourceTree = "<group>"; };
+		0DB63E522278782600D89682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3354206222781E4000D64F5A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		3354206322781E4000D64F5A /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 		3354206422781E4000D64F5A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
@@ -172,6 +187,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0DB63E4C2278782600D89682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB63E5B2278784100D89682 /* Model.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		33A4CF2C227077300046A07D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,6 +204,7 @@
 				3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */,
 				3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */,
 				3354207622781E4100D64F5A /* Moya.framework in Frameworks */,
+				0DB63E562278782600D89682 /* ViewComponent.framework in Frameworks */,
 				0DB63E292278757700D89682 /* Model.framework in Frameworks */,
 				0DB63E3C2278767200D89682 /* Data.framework in Frameworks */,
 				3354207822781E4100D64F5A /* RxMoya.framework in Frameworks */,
@@ -241,6 +265,15 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		0DB63E502278782600D89682 /* ViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				0DB63E512278782600D89682 /* ViewComponent.h */,
+				0DB63E522278782600D89682 /* Info.plist */,
+			);
+			path = ViewComponent;
+			sourceTree = "<group>";
+		};
 		3354206122781E4000D64F5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +307,7 @@
 				0DB63E0F2278732000D89682 /* Extension */,
 				0DB63E232278757700D89682 /* Model */,
 				0DB63E362278767200D89682 /* Data */,
+				0DB63E502278782600D89682 /* ViewComponent */,
 				33A4CF30227077300046A07D /* Products */,
 				3354206122781E4000D64F5A /* Frameworks */,
 			);
@@ -288,6 +322,7 @@
 				0DB63E0E2278732000D89682 /* Extension.framework */,
 				0DB63E222278757700D89682 /* Model.framework */,
 				0DB63E352278767200D89682 /* Data.framework */,
+				0DB63E4F2278782600D89682 /* ViewComponent.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -350,6 +385,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0DB63E4A2278782600D89682 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB63E532278782600D89682 /* ViewComponent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -407,6 +450,24 @@
 			productReference = 0DB63E352278767200D89682 /* Data.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		0DB63E4E2278782600D89682 /* ViewComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB63E5A2278782600D89682 /* Build configuration list for PBXNativeTarget "ViewComponent" */;
+			buildPhases = (
+				0DB63E4A2278782600D89682 /* Headers */,
+				0DB63E4B2278782600D89682 /* Sources */,
+				0DB63E4C2278782600D89682 /* Frameworks */,
+				0DB63E4D2278782600D89682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewComponent;
+			productName = ViewComponent;
+			productReference = 0DB63E4F2278782600D89682 /* ViewComponent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		33A4CF2E227077300046A07D /* lunch-hub */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33A4CF57227077310046A07D /* Build configuration list for PBXNativeTarget "lunch-hub" */;
@@ -423,6 +484,7 @@
 				0DB63E142278732000D89682 /* PBXTargetDependency */,
 				0DB63E282278757700D89682 /* PBXTargetDependency */,
 				0DB63E3B2278767200D89682 /* PBXTargetDependency */,
+				0DB63E552278782600D89682 /* PBXTargetDependency */,
 			);
 			name = "lunch-hub";
 			productName = "lunch-hub";
@@ -484,6 +546,9 @@
 					0DB63E342278767200D89682 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					0DB63E4E2278782600D89682 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					33A4CF2E227077300046A07D = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -516,6 +581,7 @@
 				0DB63E0D2278732000D89682 /* Extension */,
 				0DB63E212278757700D89682 /* Model */,
 				0DB63E342278767200D89682 /* Data */,
+				0DB63E4E2278782600D89682 /* ViewComponent */,
 			);
 		};
 /* End PBXProject section */
@@ -536,6 +602,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0DB63E332278767200D89682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB63E4D2278782600D89682 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -625,6 +698,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0DB63E4B2278782600D89682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		33A4CF2B227077300046A07D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -667,6 +747,11 @@
 			isa = PBXTargetDependency;
 			target = 0DB63E342278767200D89682 /* Data */;
 			targetProxy = 0DB63E3A2278767200D89682 /* PBXContainerItemProxy */;
+		};
+		0DB63E552278782600D89682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DB63E4E2278782600D89682 /* ViewComponent */;
+			targetProxy = 0DB63E542278782600D89682 /* PBXContainerItemProxy */;
 		};
 		33A4CF45227077310046A07D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -861,6 +946,60 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tokyo-lunch-hub.data";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DB63E582278782600D89682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ViewComponent/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tokyo-lunch-hub.view-component";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DB63E592278782600D89682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ViewComponent/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tokyo-lunch-hub.view-component";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1132,6 +1271,15 @@
 			buildConfigurations = (
 				0DB63E3E2278767200D89682 /* Debug */,
 				0DB63E3F2278767200D89682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB63E5A2278782600D89682 /* Build configuration list for PBXNativeTarget "ViewComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB63E582278782600D89682 /* Debug */,
+				0DB63E592278782600D89682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
