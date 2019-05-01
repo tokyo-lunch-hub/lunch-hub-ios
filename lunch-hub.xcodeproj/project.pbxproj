@@ -43,6 +43,16 @@
 		0DB63E8822788D6E00D89682 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E7F2278840F00D89682 /* SwiftExtensions.framework */; };
 		0DB63E8A22788E0100D89682 /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E8922788E0100D89682 /* Configurator.swift */; };
 		0DB63E8C227892A700D89682 /* ViewModelInjectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E8B227892A700D89682 /* ViewModelInjectable.swift */; };
+		0DB63E8E2279E2CB00D89682 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E8D2279E2CB00D89682 /* User.swift */; };
+		0DB63E8F2279E32A00D89682 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E7F2278840F00D89682 /* SwiftExtensions.framework */; };
+		0DB63E912279E38A00D89682 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E902279E38A00D89682 /* Date+.swift */; };
+		0DB63E922279E41700D89682 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E7F2278840F00D89682 /* SwiftExtensions.framework */; };
+		0DB63E932279E50B00D89682 /* Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E0E2278732000D89682 /* Extension.framework */; };
+		0DB63E952279E57300D89682 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E942279E57300D89682 /* Shop.swift */; };
+		0DB63E972279E64B00D89682 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E962279E64B00D89682 /* Meal.swift */; };
+		0DB63E992279E69600D89682 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E982279E69600D89682 /* Purchase.swift */; };
+		0DB63E9B2279E77B00D89682 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E9A2279E77B00D89682 /* Owner.swift */; };
+		0DB63E9D2279E7D700D89682 /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E9C2279E7D700D89682 /* Prefecture.swift */; };
 		3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206322781E4000D64F5A /* RxAtomic.framework */; };
 		3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206422781E4000D64F5A /* ReactiveSwift.framework */; };
 		3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206522781E4000D64F5A /* RxSwiftExt.framework */; };
@@ -164,6 +174,13 @@
 		0DB63E84227886C100D89682 /* Observable+Interceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Interceptor.swift"; sourceTree = "<group>"; };
 		0DB63E8922788E0100D89682 /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
 		0DB63E8B227892A700D89682 /* ViewModelInjectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelInjectable.swift; sourceTree = "<group>"; };
+		0DB63E8D2279E2CB00D89682 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0DB63E902279E38A00D89682 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		0DB63E942279E57300D89682 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		0DB63E962279E64B00D89682 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		0DB63E982279E69600D89682 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		0DB63E9A2279E77B00D89682 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		0DB63E9C2279E7D700D89682 /* Prefecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
 		3354206222781E4000D64F5A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		3354206322781E4000D64F5A /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 		3354206422781E4000D64F5A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
@@ -201,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB63E922279E41700D89682 /* SwiftExtensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +226,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB63E932279E50B00D89682 /* Extension.framework in Frameworks */,
+				0DB63E8F2279E32A00D89682 /* SwiftExtensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +312,7 @@
 			children = (
 				0DB63E102278732000D89682 /* Extension.h */,
 				0DB63E112278732000D89682 /* Info.plist */,
+				0DB63E902279E38A00D89682 /* Date+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -301,6 +322,12 @@
 			children = (
 				0DB63E242278757700D89682 /* Model.h */,
 				0DB63E252278757700D89682 /* Info.plist */,
+				0DB63E8D2279E2CB00D89682 /* User.swift */,
+				0DB63E942279E57300D89682 /* Shop.swift */,
+				0DB63E962279E64B00D89682 /* Meal.swift */,
+				0DB63E982279E69600D89682 /* Purchase.swift */,
+				0DB63E9A2279E77B00D89682 /* Owner.swift */,
+				0DB63E9C2279E7D700D89682 /* Prefecture.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -653,9 +680,11 @@
 				TargetAttributes = {
 					0DB63E0D2278732000D89682 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					0DB63E212278757700D89682 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					0DB63E342278767200D89682 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -809,6 +838,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB63E912279E38A00D89682 /* Date+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -816,6 +846,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB63E9D2279E7D700D89682 /* Prefecture.swift in Sources */,
+				0DB63E992279E69600D89682 /* Purchase.swift in Sources */,
+				0DB63E8E2279E2CB00D89682 /* User.swift in Sources */,
+				0DB63E972279E64B00D89682 /* Meal.swift in Sources */,
+				0DB63E9B2279E77B00D89682 /* Owner.swift in Sources */,
+				0DB63E952279E57300D89682 /* Shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,6 +974,7 @@
 		0DB63E182278732000D89682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -945,6 +982,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Extension/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -955,6 +996,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tokyo-lunch-hub.extension";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -965,6 +1007,7 @@
 		0DB63E192278732000D89682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -972,6 +1015,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Extension/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -992,6 +1039,7 @@
 		0DB63E2B2278757700D89682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -999,6 +1047,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Model/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1009,6 +1061,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tokyo-lunch-hub.model";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1019,6 +1072,7 @@
 		0DB63E2C2278757700D89682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1026,6 +1080,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Model/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
