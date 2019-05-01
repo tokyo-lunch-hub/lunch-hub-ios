@@ -51,6 +51,7 @@
 		0DB63E952279E57300D89682 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E942279E57300D89682 /* Shop.swift */; };
 		0DB63E972279E64B00D89682 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E962279E64B00D89682 /* Meal.swift */; };
 		0DB63E992279E69600D89682 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E982279E69600D89682 /* Purchase.swift */; };
+		0DB63E9B2279E77B00D89682 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E9A2279E77B00D89682 /* Owner.swift */; };
 		3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206322781E4000D64F5A /* RxAtomic.framework */; };
 		3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206422781E4000D64F5A /* ReactiveSwift.framework */; };
 		3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206522781E4000D64F5A /* RxSwiftExt.framework */; };
@@ -177,6 +178,7 @@
 		0DB63E942279E57300D89682 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		0DB63E962279E64B00D89682 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		0DB63E982279E69600D89682 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		0DB63E9A2279E77B00D89682 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 		3354206222781E4000D64F5A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		3354206322781E4000D64F5A /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 		3354206422781E4000D64F5A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 				0DB63E942279E57300D89682 /* Shop.swift */,
 				0DB63E962279E64B00D89682 /* Meal.swift */,
 				0DB63E982279E69600D89682 /* Purchase.swift */,
+				0DB63E9A2279E77B00D89682 /* Owner.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -843,6 +846,7 @@
 				0DB63E992279E69600D89682 /* Purchase.swift in Sources */,
 				0DB63E8E2279E2CB00D89682 /* User.swift in Sources */,
 				0DB63E972279E64B00D89682 /* Meal.swift in Sources */,
+				0DB63E9B2279E77B00D89682 /* Owner.swift in Sources */,
 				0DB63E952279E57300D89682 /* Shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
