@@ -12,7 +12,7 @@ public struct Shop: Decodable {
     public let id: String
     public let name: String
     public let branchName: String
-    public let status: ShopStatus
+    public let status: Status
     public let zipcode: String
     public let prefectureId: Int
     public let address: String
@@ -20,7 +20,7 @@ public struct Shop: Decodable {
 }
 
 public extension Shop {
-    enum ShopStatus: Int, Decodable {
+    enum Status: Int, Decodable {
         case created
     }
 }
