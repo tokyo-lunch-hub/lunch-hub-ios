@@ -11,6 +11,7 @@ import Extension
 import SwiftExtensions
 
 public struct User: Decodable {
+    public let id: String
     public let firstNameKana: String
     public let lastNameKana: String
     public let phoneNumber: String
