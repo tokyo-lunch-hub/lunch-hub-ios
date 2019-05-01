@@ -15,6 +15,7 @@ public struct Purchase: Decodable {
     public let userId: String
     public let status: Status
     public let preparedAt: StringDecodableBox<Date>
+    public let meals: [Meal]
 }
 
 public extension Purchase {
