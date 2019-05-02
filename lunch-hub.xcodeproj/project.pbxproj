@@ -53,6 +53,7 @@
 		0DB63E992279E69600D89682 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E982279E69600D89682 /* Purchase.swift */; };
 		0DB63E9B2279E77B00D89682 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E9A2279E77B00D89682 /* Owner.swift */; };
 		0DB63E9D2279E7D700D89682 /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E9C2279E7D700D89682 /* Prefecture.swift */; };
+		0DB63EA2227B394D00D89682 /* SuccessResponseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63EA1227B394D00D89682 /* SuccessResponseInterceptor.swift */; };
 		3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206322781E4000D64F5A /* RxAtomic.framework */; };
 		3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206422781E4000D64F5A /* ReactiveSwift.framework */; };
 		3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206522781E4000D64F5A /* RxSwiftExt.framework */; };
@@ -181,6 +182,7 @@
 		0DB63E982279E69600D89682 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		0DB63E9A2279E77B00D89682 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 		0DB63E9C2279E7D700D89682 /* Prefecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
+		0DB63EA1227B394D00D89682 /* SuccessResponseInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessResponseInterceptor.swift; sourceTree = "<group>"; };
 		3354206222781E4000D64F5A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		3354206322781E4000D64F5A /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 		3354206422781E4000D64F5A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
@@ -373,16 +375,25 @@
 		0DB63E7222787A1C00D89682 /* LunchHubApi */ = {
 			isa = PBXGroup;
 			children = (
+				0DB63EA0227B392800D89682 /* Interceptor */,
 				0DB63E7322787A2F00D89682 /* LunchHubApi.swift */,
 				0DB63E7522787A8700D89682 /* LunchHubApiEndpoint.swift */,
 				0DB63E7722787AE600D89682 /* LunchHubApiService.swift */,
 				0DB63E7922787B3F00D89682 /* LunchHubApiHost.swift */,
 				0DB63E7B227881A200D89682 /* LunchHubApiError.swift */,
-				0DB63E7D2278820F00D89682 /* ResponseInterceptor.swift */,
 				0DB63E822278862B00D89682 /* MoyaProvider+.swift */,
-				0DB63E84227886C100D89682 /* Observable+Interceptor.swift */,
 			);
 			path = LunchHubApi;
+			sourceTree = "<group>";
+		};
+		0DB63EA0227B392800D89682 /* Interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				0DB63E7D2278820F00D89682 /* ResponseInterceptor.swift */,
+				0DB63E84227886C100D89682 /* Observable+Interceptor.swift */,
+				0DB63EA1227B394D00D89682 /* SuccessResponseInterceptor.swift */,
+			);
+			path = Interceptor;
 			sourceTree = "<group>";
 		};
 		3354206122781E4000D64F5A /* Frameworks */ = {
@@ -861,6 +872,7 @@
 			files = (
 				0DB63E7E2278820F00D89682 /* ResponseInterceptor.swift in Sources */,
 				0DB63E7C227881A200D89682 /* LunchHubApiError.swift in Sources */,
+				0DB63EA2227B394D00D89682 /* SuccessResponseInterceptor.swift in Sources */,
 				0DB63E7822787AE600D89682 /* LunchHubApiService.swift in Sources */,
 				0DB63E7622787A8700D89682 /* LunchHubApiEndpoint.swift in Sources */,
 				0DB63E7422787A2F00D89682 /* LunchHubApi.swift in Sources */,
