@@ -54,6 +54,7 @@
 		0DB63E9B2279E77B00D89682 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E9A2279E77B00D89682 /* Owner.swift */; };
 		0DB63E9D2279E7D700D89682 /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63E9C2279E7D700D89682 /* Prefecture.swift */; };
 		0DB63EA2227B394D00D89682 /* SuccessResponseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63EA1227B394D00D89682 /* SuccessResponseInterceptor.swift */; };
+		0DB63EA4227B39F800D89682 /* FailureResponseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB63EA3227B39F800D89682 /* FailureResponseInterceptor.swift */; };
 		3354207322781E4100D64F5A /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206322781E4000D64F5A /* RxAtomic.framework */; };
 		3354207422781E4100D64F5A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206422781E4000D64F5A /* ReactiveSwift.framework */; };
 		3354207522781E4100D64F5A /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354206522781E4000D64F5A /* RxSwiftExt.framework */; };
@@ -183,6 +184,7 @@
 		0DB63E9A2279E77B00D89682 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 		0DB63E9C2279E7D700D89682 /* Prefecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
 		0DB63EA1227B394D00D89682 /* SuccessResponseInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessResponseInterceptor.swift; sourceTree = "<group>"; };
+		0DB63EA3227B39F800D89682 /* FailureResponseInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureResponseInterceptor.swift; sourceTree = "<group>"; };
 		3354206222781E4000D64F5A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		3354206322781E4000D64F5A /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 		3354206422781E4000D64F5A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
@@ -392,6 +394,7 @@
 				0DB63E7D2278820F00D89682 /* ResponseInterceptor.swift */,
 				0DB63E84227886C100D89682 /* Observable+Interceptor.swift */,
 				0DB63EA1227B394D00D89682 /* SuccessResponseInterceptor.swift */,
+				0DB63EA3227B39F800D89682 /* FailureResponseInterceptor.swift */,
 			);
 			path = Interceptor;
 			sourceTree = "<group>";
@@ -870,6 +873,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB63EA4227B39F800D89682 /* FailureResponseInterceptor.swift in Sources */,
 				0DB63E7E2278820F00D89682 /* ResponseInterceptor.swift in Sources */,
 				0DB63E7C227881A200D89682 /* LunchHubApiError.swift in Sources */,
 				0DB63EA2227B394D00D89682 /* SuccessResponseInterceptor.swift in Sources */,
