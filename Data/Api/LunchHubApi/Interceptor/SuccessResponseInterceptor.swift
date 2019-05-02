@@ -14,8 +14,8 @@ import SwiftExtensions
 struct SuccessResponseInterceptor: ResponseInterceptorable {
     
     func intercept<T>(response: Response) -> Observable<T>? where T: Decodable {
-        switch response.statusCode {
-        case 200...226:
+        switch StatusCodeRange(statusCode: response.statusCode) {
+        case .success:
             do {
                 let decoded = try response.map(T.self, using: .snakeCaseDecoder)
                 return .just(decoded)
@@ -27,8 +27,8 @@ struct SuccessResponseInterceptor: ResponseInterceptorable {
     }
     
     func intercept(response: Response) -> Observable<Void>? {
-        switch response.statusCode {
-        case 200...226: return .just(())
+        switch StatusCodeRange(statusCode: response.statusCode) {
+        case .success: return .just(())
         default: return nil
         }
     }

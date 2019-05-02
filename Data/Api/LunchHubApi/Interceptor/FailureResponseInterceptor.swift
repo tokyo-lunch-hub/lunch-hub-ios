@@ -22,8 +22,8 @@ struct FailureResponseInterceptor: ResponseInterceptorable {
     }
     
     private func errorHandle<T>(response: Response) -> Observable<T>? {
-        switch response.statusCode {
-        case 400...600:
+        switch StatusCodeRange(statusCode: response.statusCode) {
+        case .clientError, .serverError:
             guard let error = try? response.map(LunchHubApi.Error.self, using: .snakeCaseDecoder) else {
                 return .error(LunchHubApi.Error.internalError)
             }
