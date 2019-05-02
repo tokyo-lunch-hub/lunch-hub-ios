@@ -15,11 +15,14 @@ extension LunchHubApi {
     enum ResponseInterceptor: CaseIterable {
         case success
         case failure
-        var interceptor: ResponseInterceptorable {
-            switch self {
-            case .success: return SuccessResponseInterceptor()
-            case .failure: return FailureResponseInterceptor()
-            }
+    }
+}
+
+extension LunchHubApi.ResponseInterceptor {
+    var interceptor: ResponseInterceptorable {
+        switch self {
+        case .success: return SuccessResponseInterceptor()
+        case .failure: return FailureResponseInterceptor()
         }
     }
 }
