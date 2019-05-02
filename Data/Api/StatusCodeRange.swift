@@ -15,8 +15,7 @@ enum StatusCodeRange: RawRepresentable {
     case redirection
     case clientError
     case serverError
-    case error
-    
+
     var rawValue: ClosedRange<Int> {
         switch self {
         case .information:
@@ -29,8 +28,6 @@ enum StatusCodeRange: RawRepresentable {
             return 400...451
         case .serverError:
             return 500...511
-        case .error:
-            return 200...511
         }
     }
     
@@ -46,8 +43,6 @@ enum StatusCodeRange: RawRepresentable {
             self = .clientError
         case 500...511:
             self = .serverError
-        case 200...511:
-            self = .error
         default:
             return nil
         }
@@ -65,8 +60,6 @@ enum StatusCodeRange: RawRepresentable {
             self = .clientError
         case 500...511:
             self = .serverError
-        case 200...511:
-            self = .error
         default:
             // 不正なステータスコード
             preconditionFailure()
