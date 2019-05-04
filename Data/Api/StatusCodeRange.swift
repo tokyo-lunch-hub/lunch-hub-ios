@@ -33,15 +33,15 @@ enum StatusCodeRange: RawRepresentable {
     
     init?(rawValue: ClosedRange<Int>) {
         switch rawValue {
-        case 100...103:
+        case StatusCodeRange.information.rawValue:
             self = .information
-        case 200...226:
+        case StatusCodeRange.success.rawValue:
             self = .success
-        case 300...308:
+        case StatusCodeRange.redirection.rawValue:
             self = .redirection
-        case 400...451:
+        case StatusCodeRange.clientError.rawValue:
             self = .clientError
-        case 500...511:
+        case StatusCodeRange.serverError.rawValue:
             self = .serverError
         default:
             return nil
@@ -50,15 +50,15 @@ enum StatusCodeRange: RawRepresentable {
     
     init(statusCode: Int) {
         switch statusCode {
-        case 100...103:
+        case StatusCodeRange.information.rawValue:
             self = .information
-        case 200...226:
+        case StatusCodeRange.success.rawValue:
             self = .success
-        case 300...308:
+        case StatusCodeRange.redirection.rawValue:
             self = .redirection
-        case 400...451:
+        case StatusCodeRange.clientError.rawValue:
             self = .clientError
-        case 500...511:
+        case StatusCodeRange.serverError.rawValue:
             self = .serverError
         default:
             // 不正なステータスコード
