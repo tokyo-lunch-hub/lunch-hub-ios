@@ -13,6 +13,7 @@ import SwiftExtensions
 
 extension LunchHubApi {
     enum ResponseInterceptor: CaseIterable {
+        case forceTransition
         case success
         case failure
     }
@@ -21,8 +22,9 @@ extension LunchHubApi {
 extension LunchHubApi.ResponseInterceptor {
     var interceptor: ResponseInterceptorable {
         switch self {
-        case .success: return SuccessResponseInterceptor()
-        case .failure: return FailureResponseInterceptor()
+        case .forceTransition: return ForceTransitionInterceptor()
+        case .success:         return SuccessResponseInterceptor()
+        case .failure:         return FailureResponseInterceptor()
         }
     }
 }
