@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7822F7227DF74E00EAE20F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7822F6227DF74E00EAE20F /* Coordinator.swift */; };
+		0D7822F9227DF78000EAE20F /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7822F8227DF78000EAE20F /* ApplicationCoordinator.swift */; };
 		0DB63E122278732000D89682 /* Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB63E102278732000D89682 /* Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DB63E152278732000D89682 /* Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E0E2278732000D89682 /* Extension.framework */; };
 		0DB63E162278732000D89682 /* Extension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB63E0E2278732000D89682 /* Extension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -152,6 +154,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D7822F6227DF74E00EAE20F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		0D7822F8227DF78000EAE20F /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		0DB63E0E2278732000D89682 /* Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB63E102278732000D89682 /* Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extension.h; sourceTree = "<group>"; };
 		0DB63E112278732000D89682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -366,6 +370,7 @@
 				0DB63E652278792E00D89682 /* Shared.h */,
 				0DB63E662278792E00D89682 /* Info.plist */,
 				0DB63E8B227892A700D89682 /* ViewModelInjectable.swift */,
+				0D7822F6227DF74E00EAE20F /* Coordinator.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -470,6 +475,7 @@
 				33A4CF39227077310046A07D /* Assets.xcassets */,
 				33A4CF3B227077310046A07D /* LaunchScreen.storyboard */,
 				33A4CF3E227077310046A07D /* Info.plist */,
+				0D7822F8227DF78000EAE20F /* ApplicationCoordinator.swift */,
 			);
 			path = "lunch-hub";
 			sourceTree = "<group>";
@@ -907,6 +913,7 @@
 			files = (
 				0DB63E8A22788E0100D89682 /* Configurator.swift in Sources */,
 				0DB63E8C227892A700D89682 /* ViewModelInjectable.swift in Sources */,
+				0D7822F7227DF74E00EAE20F /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -916,6 +923,7 @@
 			files = (
 				33A4CF35227077300046A07D /* ViewController.swift in Sources */,
 				33A4CF33227077300046A07D /* AppDelegate.swift in Sources */,
+				0D7822F9227DF78000EAE20F /* ApplicationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
