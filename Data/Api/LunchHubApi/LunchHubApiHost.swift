@@ -8,7 +8,15 @@
 
 import Foundation
 
-var lunchHubApiHost: LunchHubApiHost = .development
+#if PRODUCTION
+    var lunchHubApiHost: LunchHubApiHost = .production
+#elseif STAGING
+    var lunchHubApiHost: LunchHubApiHost = .staging
+#elseif DEVELOPMENT
+    var lunchHubApiHost: LunchHubApiHost = .development
+#else
+    var lunchHubApiHost: LunchHubApiHost = .development
+#endif
 
 public enum LunchHubApiHost {
     case development
