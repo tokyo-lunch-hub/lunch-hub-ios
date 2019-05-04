@@ -8,7 +8,7 @@
 
 import Foundation
 
-#if RELEASE
+#if PRODUCTION
     var lunchHubApiHost: LunchHubApiHost = .production
 #elseif STAGING
     var lunchHubApiHost: LunchHubApiHost = .staging

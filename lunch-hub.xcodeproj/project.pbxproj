@@ -1543,7 +1543,7 @@
 			};
 			name = Staging;
 		};
-		0DB63E192278732000D89682 /* Release */ = {
+		0DB63E192278732000D89682 /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1573,9 +1573,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Production;
 		};
-		0DB63E2C2278757700D89682 /* Release */ = {
+		0DB63E2C2278757700D89682 /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1605,9 +1605,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Production;
 		};
-		0DB63E3F2278767200D89682 /* Release */ = {
+		0DB63E3F2278767200D89682 /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1637,9 +1637,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Production;
 		};
-		0DB63E592278782600D89682 /* Release */ = {
+		0DB63E592278782600D89682 /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -1664,9 +1664,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Production;
 		};
-		0DB63E6D2278792E00D89682 /* Release */ = {
+		0DB63E6D2278792E00D89682 /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1696,9 +1696,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Production;
 		};
-		33A4CF56227077310046A07D /* Release */ = {
+		33A4CF56227077310046A07D /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1737,7 +1737,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = "PRODUCTION=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1747,16 +1747,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				OTHER_SWIFT_FLAGS = "-D RELEASE";
+				OTHER_SWIFT_FLAGS = "-D PRODUCTION";
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRODUCTION;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Production;
 		};
-		33A4CF59227077310046A07D /* Release */ = {
+		33A4CF59227077310046A07D /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1776,9 +1776,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Production;
 		};
-		33A4CF5C227077310046A07D /* Release */ = {
+		33A4CF5C227077310046A07D /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1796,9 +1796,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lunch-hub.app/lunch-hub";
 			};
-			name = Release;
+			name = Production;
 		};
-		33A4CF5F227077310046A07D /* Release */ = {
+		33A4CF5F227077310046A07D /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1815,7 +1815,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "lunch-hub";
 			};
-			name = Release;
+			name = Production;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1823,92 +1823,92 @@
 		0DB63E172278732000D89682 /* Build configuration list for PBXNativeTarget "Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DB63E192278732000D89682 /* Release */,
+				0DB63E192278732000D89682 /* Production */,
 				0D7822E4227DE65400EAE20F /* Staging */,
 				0D7822DB227DE65100EAE20F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 		0DB63E2D2278757700D89682 /* Build configuration list for PBXNativeTarget "Model" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DB63E2C2278757700D89682 /* Release */,
+				0DB63E2C2278757700D89682 /* Production */,
 				0D7822E5227DE65400EAE20F /* Staging */,
 				0D7822DC227DE65100EAE20F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 		0DB63E402278767200D89682 /* Build configuration list for PBXNativeTarget "Data" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DB63E3F2278767200D89682 /* Release */,
+				0DB63E3F2278767200D89682 /* Production */,
 				0D7822E6227DE65400EAE20F /* Staging */,
 				0D7822DD227DE65100EAE20F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 		0DB63E5A2278782600D89682 /* Build configuration list for PBXNativeTarget "ViewComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DB63E592278782600D89682 /* Release */,
+				0DB63E592278782600D89682 /* Production */,
 				0D7822E7227DE65400EAE20F /* Staging */,
 				0D7822DE227DE65100EAE20F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 		0DB63E6E2278792E00D89682 /* Build configuration list for PBXNativeTarget "Shared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DB63E6D2278792E00D89682 /* Release */,
+				0DB63E6D2278792E00D89682 /* Production */,
 				0D7822E8227DE65400EAE20F /* Staging */,
 				0D7822DF227DE65100EAE20F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 		33A4CF2A227077300046A07D /* Build configuration list for PBXProject "lunch-hub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33A4CF56227077310046A07D /* Release */,
+				33A4CF56227077310046A07D /* Production */,
 				0D7822E0227DE65400EAE20F /* Staging */,
 				0D7822D7227DE65100EAE20F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 		33A4CF57227077310046A07D /* Build configuration list for PBXNativeTarget "lunch-hub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33A4CF59227077310046A07D /* Release */,
+				33A4CF59227077310046A07D /* Production */,
 				0D7822E1227DE65400EAE20F /* Staging */,
 				0D7822D8227DE65100EAE20F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 		33A4CF5A227077310046A07D /* Build configuration list for PBXNativeTarget "lunch-hubTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33A4CF5C227077310046A07D /* Release */,
+				33A4CF5C227077310046A07D /* Production */,
 				0D7822E2227DE65400EAE20F /* Staging */,
 				0D7822D9227DE65100EAE20F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 		33A4CF5D227077310046A07D /* Build configuration list for PBXNativeTarget "lunch-hubUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33A4CF5F227077310046A07D /* Release */,
+				33A4CF5F227077310046A07D /* Production */,
 				0D7822E3227DE65400EAE20F /* Staging */,
 				0D7822DA227DE65100EAE20F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 /* End XCConfigurationList section */
 	};
