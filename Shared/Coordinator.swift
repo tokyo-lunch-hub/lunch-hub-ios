@@ -17,7 +17,7 @@ public protocol Coordinator {
 }
 
 public extension Coordinator {
-    public init(viewController: UIViewController) {
+    init(viewController: UIViewController) {
         self.init()
         self.viewController = viewController
     }
